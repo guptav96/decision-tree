@@ -1,0 +1,45 @@
+
+  Data: This dataset contains credit card applications. The attributes details were removed to protect confidentiality.
+
+	The data contains 15 attributes and a class label (+/-)
+	Different attributes can take different values.
+	
+	The attributes information:
+    A1:	b, a.
+    A2:	continuous.
+    A3:	continuous.
+    A4:	u, y, l, t.
+    A5:	g, p, gg.
+    A6:	c, d, cc, i, j, k, m, r, q, w, x, e, aa, ff.
+    A7:	v, h, bb, j, n, z, dd, ff, o.
+    A8:	continuous.
+    A9:	t, f.
+    A10:	t, f.
+    A11:	continuous.
+    A12:	t, f.
+    A13:	g, p, s.
+    A14:	continuous.
+    A15:	continuous.
+    A16: +,-         (class attribute)
+
+ 
+*** Note that the data contains missing attribute values! ***
+
+ 
+Original Use:
+
+    See Quinlan,
+    * "Simplifying decision trees", Int J Man-Machine Studies 27,
+      Dec 1987, pp. 221-234.
+    * "C4.5: Programs for Machine Learning", Morgan Kaufmann, Oct 1992
+
+Currently maintained by UCI Machine Learning Repository.
+
+
+
+Files: 
+    Solution.py: Your DecisionTree algorithm code should be here.
+    Check.py: You can call this file to check your model accuracy. It also contains how to read data from file. This is the file we will call when running your code, so it should build the Decision Tree with the best maxDepth value and evaluate the training and validation set!
+
+Note: Read related comments for Input/Output requirement.
+
